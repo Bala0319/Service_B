@@ -34,6 +34,6 @@ spring:
         spring.deserializer.value.delegate.class: org.springframework.kafka.support.serializer.JsonDeserializer
         spring.json.trusted.packages: '*'
 
-  server:
-    port: 8891
+server:
+  port: 8891
 
